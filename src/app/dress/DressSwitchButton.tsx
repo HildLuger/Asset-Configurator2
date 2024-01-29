@@ -16,11 +16,11 @@ const DressSwitchButton: React.FC = () => {
   return (
     <button
       onClick={handleClick}
-      className="absolute top-3/4 left-1/2 -ml-0 transform -translate-x-1/2 -translate-y-1/2 z-0 w-12 h-12 rounded-full
+      className="absolute top-3/4 left-1/2 -ml-0 transform -translate-x-1/2 -translate-y-1/2 z-0 w-15 h-15 rounded-full
        bg-white bg-opacity-5 border border-white flex items-center justify-center shadow-lg hover:bg-opacity-15 focus:outline-none backdrop-blur text-white"
-      style={{ top: '80%', width: '60px', height: '60px' }}
+      style={{ top: '80%', width: '80px', height: '80px' }}
     >
-      <span>Move</span>
+      <span>Animation</span>
     </button>
   );
 };
