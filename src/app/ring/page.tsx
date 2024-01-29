@@ -14,7 +14,7 @@ const DressScene = () => {
 
   return (
     <main>
-      <Canvas style={{ width: '100vw', height: '100vh' }} shadows>
+      <Canvas style={{ width: '100vw', height: '100vh' }}shadows camera={{ position: [5, 0, 40], fov: 30 }}>
         <ambientLight intensity={1} />
         <directionalLight position={[0, 5, 5]} castShadow />
        
@@ -24,8 +24,8 @@ const DressScene = () => {
           dampingFactor={0.03}
           autoRotate
           autoRotateSpeed={4}
-          minDistance={3}
-          maxDistance={20}
+          minDistance={10}
+          maxDistance={50}
         />
         <Ring/>
          <MyEnvironment />
