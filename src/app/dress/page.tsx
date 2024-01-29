@@ -6,9 +6,9 @@ import { useGLTF, OrbitControls, Environment } from '@react-three/drei';
 import MyEnvironment from '../Environment';
 import store from '../store';
 import Dress from './Dress';
-import MessageOverlay from '../message';
+
 import DressSwitchButton from './DressSwitchButton';
-import MessageOverlay2 from '../messageLod';
+
 
 const DressScene = () => {
   const controlsRef = useRef(null);
