@@ -42,6 +42,7 @@ const Navbar = () => {
           <Link href="/ring" passHref>
             <span className="text-gray-600 dark:text-gray-400 cursor-pointer">Ring</span>
           </Link>
+          
         </div>
         
         {/* Dark Mode Toggle Button */}

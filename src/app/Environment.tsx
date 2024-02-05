@@ -21,6 +21,8 @@ const MyEnvironment = () => {
       />
       <directionalLight position={ [ 1, 2, 3 ] } intensity={isDarkMode ? 1 : 0} />
       <directionalLight position={ [ -1, 2, -3 ] } intensity={isDarkMode ? 0.5 : 0} />
+   
+      <ambientLight intensity={0} />
     </>
   );
 };
