@@ -19,7 +19,7 @@ const Rose: React.FC = () => {
                 object.material = new MeshPhysicalMaterial({
                     color: 0xffddc9,
                     metalness: 0.9,
-                    roughness: 1.4,
+                    roughness: 1.2,
                     envMapIntensity: 1.0,
                     clearcoat: 1.0,
                     clearcoatRoughness: 0.5,

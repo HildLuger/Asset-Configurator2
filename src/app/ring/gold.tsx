@@ -20,7 +20,7 @@ const Gold: React.FC = () => {
                 object.material = new MeshPhysicalMaterial({
                     color: 0xf8ffc8,
                     metalness: 0.9,
-                    roughness: 1.2,
+                    roughness: 0.8,
                     envMapIntensity: 1,
                     clearcoat: 1.0,
                     clearcoatRoughness: 0.5,
